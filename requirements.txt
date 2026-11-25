@@ -1,0 +1,8 @@
+epymorph
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+properscoring
+jupyter
