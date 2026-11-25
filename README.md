@@ -109,17 +109,7 @@ project/
 requirements.txt
 ```
 
-## Reproducing
 
-Requires Python ≥ 3.11 and a free [U.S. Census API key](https://api.census.gov/data/key_signup.html), which epymorph uses to download population and commuting data.
-
-```bash
-pip install -r requirements.txt
-export CENSUS_API_KEY=your_key_here      # PowerShell: $env:CENSUS_API_KEY="your_key_here"
-jupyter notebook project/epi.ipynb       # run all cells
-```
-
-With 2,000 ensemble members, each filter takes several minutes to run. Lower `ensemble_size` in the notebook for a quicker run.
 
 ## References
 
